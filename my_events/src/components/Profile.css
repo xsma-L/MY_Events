@@ -1,0 +1,92 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background: url("https://images6.alphacoders.com/379/thumb-1920-379397.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container3 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.container3 h1 {
+  color: white;
+}
+
+.container3 img {
+  border-radius: 50%;
+}
+
+.edit_zone {
+  background-color: grey;
+  padding: 15px;
+  border-radius: 100px;
+}
+
+#bio_input {
+  border: none;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+  background-color: rgba(117, 190, 218, 0.0);
+  padding: 5px;
+  resize: none;
+}
+
+#bio_input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#pseudo_input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: rgba(117, 190, 218, 0.0);
+  color: black;
+  padding: 5px;
+}
+
+#pseudo_input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+#email_input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: rgba(117, 190, 218, 0.0);
+  color: black;
+  padding: 5px;
+}
+
+#email_input::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.profile_pic h3 {
+  color: white;
+}
+
+#bio_input{
+    display: none;
+}
+
+#avatar_input{
+    display: none;
+}
+
+#pseudo_input{
+    display: none;
+}
+
+#email_input{
+    display: none;
+}
+
+#submit{
+    display: none;
+}

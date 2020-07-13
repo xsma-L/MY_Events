@@ -1,0 +1,83 @@
+* {
+  box-sizing:border-box;
+}
+
+body {
+  background: url("https://images6.alphacoders.com/379/thumb-1920-379397.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  color: white;
+}
+
+h2 {
+  color: white;
+  margin-left: 50px;
+}
+
+.head {
+  background-color: grey;
+  padding: 15px;
+  border-radius: 20px;
+  display: flex;
+  width: 65%;
+  margin-bottom: 30px;
+}
+
+.head img {
+  margin-right: 15px;
+}
+
+.informations button {
+  margin-top: 15px;
+}
+
+.informations button:hover {
+  cursor: pointer;
+}
+
+.body {
+  background-color: grey;
+  padding: 15px;
+  border-radius: 20px;
+}
+
+.image_member img {
+  border-radius: 50%;
+}
+
+.informations .pseudo {
+  font-size: 25px;
+}
+
+.informations .biographie {
+  font-style: italic;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:600px) {
+  .head {
+    display: block;
+  }
+
+  .image_event {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width:415px) {
+  .head {
+    width: 100%;
+    text-align: center;
+  }
+
+  .body {
+    height: 412px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+  }
+}
